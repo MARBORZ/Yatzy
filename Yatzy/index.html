@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatzy Spill</title>
+    <link rel="stylesheet" href="css/yatzy-style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="yatzyScript/yatzyMain.js" type="module" defer></script>
+</head>
+<body>
+    <main>
+        <h1 class="main__title">Yatzy Game</h1>
+        <div class="yatzy-container"></div>
+    </main>
+    <aside class="scoreboard scoreboard--left">
+        <h2>Category Board</h2>
+        <ul class="score-list">
+            <li data-category="ones">One`s <span>—</span></li>
+            <li data-category="twos">Two`s <span>—</span></li>
+            <li data-category="threes">Three`s <span>—</span></li>
+            <li data-category="fours">Four`s <span>—</span></li>
+            <li data-category="fives">Five`s <span>—</span></li>
+            <li data-category="sixes">Sixe`s <span>—</span></li>
+
+            <li data-category="pair">Pair <span>—</span></li>
+            <li data-category="twoPairs">Two Pairs <span>—</span></li>
+            <li data-category="threeOfKind">Three of a Kind <span>—</span></li>
+            <li data-category="fourOfKind">Four of a Kind <span>—</span></li>
+            <li data-category="fullHouse">Full House <span>—</span></li>
+            <li data-category="smallStraight">Small Straight <span>—</span></li>
+            <li data-category="largeStraight">Large Straight <span>—</span></li>
+            <li data-category="yatzy">Yatzy <span>—</span></li>
+            <li data-category="chance">Chance <span>—</span></li>
+        </ul>
+    </aside>
+    <aside class="scoreboard scoreboard--right">
+        <h2>Stats</h2>
+        <ul class="stats-list">
+            <li>
+            Rolls left <span id="stats-rolls">3</span>
+            </li>
+            <li>
+            Upper <span id="upper-score">0</span>
+            </li>
+            <li>
+            Bonus <span id="bonus-score">0</span>
+            </li>
+            <li class="stats-total">
+            Total <span id="total-score">0</span>
+            </li>
+        </ul>
+    </aside>
+    <footer>
+
+        <div class="buttons">
+            <button id="btn-roll">Roll</button>
+            <button id="btn-new-round">New game</button>
+        </div>
+        <section class="my-dice">
+            <div class="my-dice__dice"></div>
+        </section>
+    </footer>
+
+    <div id="game-over" class="game-over hidden">
+        <h2>Game Over</h2>
+        <p>Total score: <span id="final-score"></span></p>
+        <button id="btn-restart">Play again</button>
+    </div>
+
+</body>
+</html>
