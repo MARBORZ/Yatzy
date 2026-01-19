@@ -3,14 +3,10 @@
 This repository contains a browser-based implementation of the classic **Yatzy** dice game, built using **vanilla JavaScript**, HTML, and CSS.
 The project focuses on clean architecture, clear separation of concerns, and readable, maintainable code.
 
----
-
 ## 📌 Overview
 
 Yatzy is a turn-based dice game where the player rolls five dice and scores points in different categories.
 This implementation was created as a learning-focused project, emphasizing **game logic design**, **state management**, and **DOM interaction without frameworks**.
-
----
 
 ## 🧠 Architecture
 
@@ -37,8 +33,6 @@ Handles:
 
 This separation keeps the code modular, testable, and easy to extend.
 
----
-
 ## 🎮 Game Rules (Simplified)
 
 * The player rolls **5 dice**
@@ -49,16 +43,12 @@ This separation keeps the code modular, testable, and easy to extend.
 * A bonus is awarded if the upper section reaches the required score
 * The game ends when all categories are filled
 
----
-
 ## 🛠️ Technologies
 
 * JavaScript (ES6+)
 * HTML5
 * CSS3
 * No external libraries or frameworks
-
----
 
 ## 🚀 Features
 
@@ -69,13 +59,7 @@ This separation keeps the code modular, testable, and easy to extend.
 * New game / reset functionality
 * Clean, modular project structure
 
----
-
 ## 👤 Author
 
 Developed by **Amadi Masuev**
 This project is part of a personal portfolio and demonstrates solid fundamentals in JavaScript, frontend architecture, and game logic implementation.
-
----
-
-Если хочешь — могу сделать **ещё короче (200 слов)** или подготовить версию **строго под GitHub / CV / junior–mid позицию**.
