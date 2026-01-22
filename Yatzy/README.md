@@ -36,6 +36,7 @@ The project focuses on clean game logic separation, clear UI state management, a
 **Upper Bonus**
 - If the total upper score is **63 or more**, you receive a **+50 bonus**
 - Bonus is added automatically to the total score
+- You can select categories out of order (modern rules)
 
 ---
 

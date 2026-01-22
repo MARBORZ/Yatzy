@@ -59,7 +59,7 @@ export class YatzyDOM{
             img.alt = `Held dice ${num}`;
             img.classList.add('img', 'held');
 
-            // optinal (if click returns back to this.dice)
+            
             img.onclick = () => {
                 this.yatzyLogic.unholdDie(index);
                 this.visual();

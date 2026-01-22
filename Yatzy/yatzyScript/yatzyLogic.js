@@ -280,7 +280,7 @@ export class YatzyLogic{
         this.resetRound()
 
     }
-    
+
     checkGameOver(){
         const categories = Object.values(this.scoreCategories)
         return categories.every(cat => cat.used === true)

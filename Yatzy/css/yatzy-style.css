@@ -10,6 +10,13 @@ body{
   background-color: #202132;
   color: #e5e7eb;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  scrollbar-color: rgb(31, 31, 79) #1f2035;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar{
+  scrollbar-width: thin;
 }
 
 main,
@@ -224,6 +231,22 @@ button:disabled{
   border-top: 2px solid #8084c0;
 }
 
+.rules{
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  translate: -50%;
+
+  & > a{
+    color: white;
+    text-decoration: none;
+
+    &:hover{
+      filter: brightness(.8);
+    }
+  }
+}
+
 /* ===== GAME OVER ===== */
 .hidden{
   display: none !important;
@@ -298,3 +321,17 @@ button:disabled{
   }
 }
 
+  @media (max-width: 1920px) {
+    .scoreboard, .scoreboard--left, .scoreboard--right{
+      overflow: auto;
+      height: 100vh;
+    }
+
+    .my-dice, .dice-list, .held-dice-list, .yatzy-container{
+      min-width: 90%;
+    }
+
+    .img{
+      width: 90px;
+    }
+}
