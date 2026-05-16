@@ -1,17 +1,16 @@
 # 🎲 Yatzy Game (JavaScript)
 
-A fully playable **Yatzy** game built with **Vanilla JavaScript**, HTML, and CSS.  
-The project focuses on clean game logic separation, clear UI state management, and classic Yatzy rules.
+Yatzy dice game in vanilla JavaScript. Roll dice, pick categories, get points.
 
 ---
 
 ## 📖 About the Game
 
-**Yatzy** is a dice game where the goal is to score the highest total by selecting categories based on dice combinations.
+Yatzy is a dice game. Goal is to score high by picking the right categories for your dice rolls.
 
-- You play **one game** with **15 categories**
-- Each category can be used **only once**
-- The game ends when **all categories are filled**
+- One game with 15 categories
+- Each category used once
+- Game ends when all categories are filled
 
 ---
 
